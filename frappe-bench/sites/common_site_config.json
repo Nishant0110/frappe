@@ -1,7 +1,7 @@
 {
  "background_workers": 1,
  "db_host": "mariadb",
- "default_site": "dev.localhost",
+ "default_site": "mysite1.local",
  "file_watcher_port": 6787,
  "frappe_user": "frappe",
  "gunicorn_workers": 5,
