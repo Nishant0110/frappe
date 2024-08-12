@@ -2574,3 +2574,23 @@ index parent(parent))
 			COLLATE=utf8mb4_unicode_ci
 2024-08-12 11:45:34,464 WARNING database DDL Query made to DB:
 alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2024-08-12 11:58:28,433 WARNING database DDL Query made to DB:
+create table `tabDriver` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-08-12 12:00:51,621 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDriver` ADD COLUMN `status` tinyint NOT NULL DEFAULT 0, ADD COLUMN `profile` text, ADD COLUMN `first_name` varchar(140), ADD COLUMN `last_name` varchar(140), ADD COLUMN `mobile` varchar(140), ADD COLUMN `license` varchar(140)
