@@ -58,3 +58,6 @@
 2024-08-12 11:28:18,979 INFO /home/frappe/.local/bin/bench schedule
 2024-08-12 11:28:19,023 INFO /home/frappe/.local/bin/bench serve --port 8000
 2024-08-12 11:28:19,040 INFO /home/frappe/.local/bin/bench watch
+2024-08-12 11:43:55,039 INFO /home/frappe/.local/bin/bench mysite1.local migrate
+2024-08-12 11:44:19,844 INFO /home/frappe/.local/bin/bench m --siteysite1.local migrate
+2024-08-12 11:45:33,777 INFO /home/frappe/.local/bin/bench --site mysite1.local migrate
